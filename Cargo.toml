@@ -14,6 +14,8 @@ a11y = ["iced/a11y", "iced_accessibility"]
 animated-image = ["image", "dep:async-fs", "tokio?/io-util", "tokio?/fs"]
 # Debug features
 debug = ["iced/debug"]
+# Advanced iced features
+advanced = ["iced/advanced"]
 # Enables pipewire support in ashpd, if ashpd is enabled
 pipewire = ["ashpd?/pipewire"]
 # smol async runtime
