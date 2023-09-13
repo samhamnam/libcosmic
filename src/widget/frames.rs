@@ -329,6 +329,7 @@ where
         _renderer: &Renderer,
         _clipboard: &mut dyn Clipboard,
         shell: &mut Shell<'_, Message>,
+        _rect: &crate::iced::Rectangle,
     ) -> event::Status {
         let state = tree.state.downcast_mut::<State>();
 
